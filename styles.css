@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #4a6572, #cfd8dc);
+    font-family: Arial, sans-serif;
+}
+
+.login-card {
+    background: #eceff1;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+h2 {
+    color: #37474f;
+}
+
+.btn-primary {
+    background-color: #546e7a;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #455a64;
+}
+
+.btn-outline-secondary {
+    border-color: #78909c;
+    color: #546e7a;
+}
+
+.instructions-text {
+    display: none;
+    font-size: 14px;
+    color: #37474f;
+    margin-top: 10px;
+}
+
+#result {
+    font-weight: bold;
+}

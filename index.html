@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Seatwork 1</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+
+    <div class="login-card shadow">
+
+        <h2 class="text-center mb-4">Login</h2>
+
+        <form>
+            <div class="mb-3">
+                <label>Username</label>
+                <input type="text" id="username" class="form-control" placeholder="Enter username">
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter password">
+            </div>
+
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Stay logged in</label>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="button" class="btn btn-primary w-50 me-2" onclick="login()">Login</button>
+                <button type="reset" class="btn btn-outline-secondary w-50">Cancel</button>
+            </div>
+
+            <p class="text-center mt-3">
+                <a href="#">Forgot username / password?</a>
+            </p>
+        </form>
+
+       
+        <button class="btn btn-link mt-2" onclick="toggleInstructions()">Show Instructions</button>
+
+       
+        <p id="instructions" class="instructions-text"></p>
+
+       
+        <h5 id="result" class="text-center mt-3"></h5>
+
+    </div>
+
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
